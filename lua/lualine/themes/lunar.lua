@@ -7,13 +7,14 @@ local colors = {
 	fg = "#a9b1d6",
 	bg = "#16161e",
 	gray = "#3b4261",
+  none = "NONE"
 }
 -- LuaFormatter on
 return {
 	normal = {
 		a = { fg = colors.bg, bg = colors.blue },
 		b = { fg = colors.blue, bg = colors.gray },
-		c = { fg = colors.fg, bg = colors.bg },
+		c = { fg = colors.fg, bg = colors.none },
 	},
 	insert = { a = { fg = colors.bg, bg = colors.green }, b = { fg = colors.green, bg = colors.gray } },
 	visual = { a = { fg = colors.bg, bg = colors.magenta }, b = { fg = colors.magenta, bg = colors.gray } },
